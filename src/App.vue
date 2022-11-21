@@ -22,19 +22,14 @@ export default {
 </script>
 
 <style lang="scss">
-html, body {
-  padding: 0;
-  border: 0;
-  margin: 0;
-}
 #app {
-  padding: 0;
-  border: 0;
-  margin: 0;
-  position: relative;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  // padding: 0;
+  // border: 0;
+  // margin: 0;
+  // position: relative;
+  // font-family: Avenir, Helvetica, Arial, sans-serif;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
   // text-align: center;
   // color: #2c3e50;
 }

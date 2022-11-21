@@ -1,4 +1,4 @@
-# vue-p
+# pjt-portfolio
 
 ## Project setup
 ```
