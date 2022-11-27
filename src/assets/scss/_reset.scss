@@ -191,21 +191,21 @@ button {
   background-color: transparent;
 }
 
-input::-ms-clear{
+input::-ms-clear {
   display: none;
 }
 
-select{
+select {
   border-radius: 0;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  text-align-last:center;
+  text-align-last: center;
   -ms-text-align-last: center;
   -moz-text-align-last: center;
 }
-select:focus{
-  outline:none;
+select:focus {
+  outline: none;
 }
 /* IE 10, 11의 네이티브 화살표 숨기기 */
 select::-ms-expand {
