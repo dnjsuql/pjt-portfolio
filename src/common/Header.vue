@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'HeaderArea',
+  name: 'Header',
   data() {
     return {
       menuList: ['첫번째메뉴', '두번째메뉴', '세번째메뉴'],

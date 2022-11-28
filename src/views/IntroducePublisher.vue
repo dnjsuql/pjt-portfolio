@@ -1,6 +1,6 @@
 <template>
-  <HeaderVue />
-  <div class="home">
+  <Header />
+  <div class="publisher">
     <img alt="Vue logo" src="../assets/logo.png" />
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
@@ -9,18 +9,18 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
-import HeaderVue from '@/common/Header.vue';
+import Header from '@/common/Header.vue';
 
 export default {
-  name: 'HomeView',
+  name: 'IntroducePublisher',
   components: {
     // HelloWorld
-    HeaderVue,
+    Header,
   },
 };
 </script>
 <style lang="scss">
-.home {
+.publisher {
   min-height: 100vh;
   background-color: #aaa;
 }

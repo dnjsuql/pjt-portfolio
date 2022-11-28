@@ -5,8 +5,8 @@
         <h1>프로젝트 포트폴리오</h1>
       </div>
       <div class="main__link">
-        <router-link to="/home">웹퍼블리셔 임원엽입니다.</router-link> |
-        <router-link to="/about">웹디자이너 이영우입니다.</router-link>
+        <router-link to="/wylim">웹퍼블리셔 임원엽입니다.</router-link>
+        <router-link to="/ywlee">웹디자이너 이영우입니다.</router-link>
       </div>
     </div>
   </div>
@@ -17,11 +17,11 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'mainArea',
+  name: 'Main',
   components: {
     // HelloWorld
-  }
-}
+  },
+};
 </script>
 <style scoped lang="scss">
 .main {
