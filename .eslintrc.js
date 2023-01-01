@@ -13,8 +13,9 @@ module.exports = {
     'vue/multi-word-component-names': [
       'error',
       {
-        ignores: ['Header', 'Footer', 'Main'],
+        ignores: ['Header', 'Footer', 'Main', 'Swiper'],
       },
     ],
+    // 'vue/no-deprecated-slot-attribute': 'off',
   },
 };

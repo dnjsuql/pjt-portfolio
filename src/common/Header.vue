@@ -6,6 +6,7 @@
           <a href="#a">{{ item }}</a>
         </li>
       </ul>
+      <div class="header__menu">menu</div>
     </div>
   </header>
 </template>
@@ -15,7 +16,7 @@ export default {
   name: 'Header',
   data() {
     return {
-      menuList: ['첫번째메뉴', '두번째메뉴', '세번째메뉴'],
+      menuList: ['로고1', '로고2'],
     };
   },
   methods: {},
@@ -27,16 +28,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 10px;
-  box-sizing: border-box;
+  padding: 0 60px;
   width: 100%;
+  box-sizing: border-box;
+  background-color: #000;
   &__inner {
-    height: 50px;
-    background-color: rgba($color: #fff, $alpha: 0.7);
-    border-radius: 25px;
+    height: 64px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   &__list {
     height: 100%;

@@ -3,16 +3,16 @@
     <router-link to="/about">About</router-link> -->
   <!-- </nav> -->
   <router-view />
-  <TopButton />
+  <!-- <TopButton /> -->
 </template>
 
 <script>
-import TopButton from '@/components/TopButton.vue';
+// import TopButton from '@/components/TopButton.vue';
 
 export default {
   components: {
     // HeaderArea,
-    TopButton,
+    // TopButton,
   },
 };
 </script>
